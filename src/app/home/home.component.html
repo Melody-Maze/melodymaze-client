@@ -1,5 +1,6 @@
 <p>home works!</p>
-<button (click)="login()">Signin</button>
 @if (isAuthenticated) {
   <button (click)="logout()">Signout</button>
+} @else {
+  <button (click)="login()">Signin</button>
 }
